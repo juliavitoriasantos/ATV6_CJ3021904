@@ -75,8 +75,9 @@
                         {
 
                             Console.WriteLine(n1);
-                            n1++;
+                           
                         }
+                        n1++;
                     }
                     break;
 
@@ -93,36 +94,35 @@
                         if (d % 2 == 0)
                         {
 
-                            Console.WriteLine(d);
+                            Console.WriteLine(d); 
                             d--;
                         }
                     }
 
                     break;
 
+                    //Exercécio 4 
+
 
                 case 4:
 
+
                     int k;
-                    int s = 200; 
-                   
+                    int s = 0;
 
-                    Console.WriteLine("Digite um valor");
-
-                    k = int.Parse(Console.ReadLine());
 
                     while (s < 200)
                     {
                         Console.WriteLine("Digite um valor: ");
-                        k=int.Parse(Console.ReadLine());
+                        k = int.Parse(Console.ReadLine());
 
                         if (k > 0)
                         {
-                            s= s + k;
+                            s = s + k;
 
                             Console.WriteLine("Soma = {0}", s);
                         }
-                       
+
 
 
                     }
@@ -136,7 +136,7 @@
                     Console.WriteLine("Digite um número inteiro: ");
                     div = int.Parse(Console.ReadLine());
 
-                    while (a1<=div)
+                    while (a1 <= div)
                     {
                         if (div % a1 == 0)
                         {
@@ -152,12 +152,13 @@
                 case 6:
 
 
-                    int j, v;
+                    int j = 0, v;
 
-                    for (j = 0; j < 11; j++)
+                    while (j < 11)
                     {
                         Console.WriteLine("Digite um valor");
                         v = int.Parse(Console.ReadLine());
+                        j++;
 
                         if (v < v)
                         {
